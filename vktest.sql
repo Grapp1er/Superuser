@@ -1,0 +1,5 @@
+CREATE SCHEMA vktest DEFAULT CHARACTER SET utf8mb5;
+CREATE TABLE `vktest`.`user` (
+  `iduser` INT UNSIGNED NOT NULL,
+  `position` TINYINT UNSIGNED NULL,
+  PRIMARY KEY (`iduser`));
